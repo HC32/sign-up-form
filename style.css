@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+
+.image {
+    display: flex;
+    background-image: url("foliage.avif");
+    background-position: center;
+    background-size: 100vh;
+    background-repeat: none;
+    width: 40vw;
+}
+
+.text {
+    display: flex;
+    width: 60vw;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 20px 20px 0px 20px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex: auto;
+}
+
+.header, .submit {
+    display: flex;
+    height: 30vh;
+}
+
+section {
+    display: flex;
+    height: 40vh;
+}
