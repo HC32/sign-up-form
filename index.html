@@ -9,15 +9,28 @@
 <body>
     <div class="container">
         <div class="image">
-            <div class="logo"></div>
-            <div class="source"></div>
+            <div class="banner">
+                <img src="odin-lined.png" alt="Odin Logo"> ODIN
+            </div>
+            <div class="credits">
+                Photo by&nbsp;
+                <a href="https://unsplash.com/@haliewestphoto?utm_source=unsplash&
+                utm_medium=referral&utm_content=creditCopyText">Halie West</a>
+                &nbsp;on&nbsp;
+                <a href="https://unsplash.com/?utm_source=unsplash&utm_medium=
+                referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
         </div>
         <div class="text">
             <div class="header">
-
+                <p>This is not a real online service! You know you need something 
+                like this in your life to help you realize your deepest dreams. 
+                Sign up <em>now</em> to get started.</p>
+                <p>You <em>know</em> you want to.</p>
             </div>
             <section>
                 <form action="">
+                    <p>Let's do this!</p>
                     <ul>
                         <li>
                             <label for="first-name">FIRST NAME</label>
@@ -37,18 +50,21 @@
                         </li>
                         <li>
                             <label for="pwd">PASSWORD</label>
-                            <input type="password" id="pwd" name="password">
+                            <input type="password" class="error" 
+                            id="pwd" name="password">
+                            <p>*Passwords do not match</p>
                         </li>
                         <li>
                             <label for="confirm-pwd">CONFIRM PASSWORD</label>
-                            <input type="password" id="confirm-pwd" name="confirm-password">
+                            <input type="password" class="error" 
+                            id="confirm-pwd" name="confirm-password">
                         </li>
                     </ul>
                 </form>
             </section>
             <div class="submit">
-                <button></button>
-                <div></div>
+                <button>Create Account</button>
+                <div class="log-in">Already have an account? <a href="#">Log In</a></div>
             </div>
         </div>    
     </div>
